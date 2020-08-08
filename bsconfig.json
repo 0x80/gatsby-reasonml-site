@@ -1,7 +1,6 @@
 {
   "name": "gatsby-starter-reason",
   "namespace": true,
-  "reason": { "react-jsx": 2 },
   "bs-dependencies": ["reason-react", "gatsby-link-reason"],
   "sources": [
     {
@@ -16,5 +15,7 @@
     }
   ],
   "suffix": ".bs.js",
+  "bsc-flags": ["-bs-super-errors"],
+  "reason": { "react-jsx": 3 },
   "refmt": 3
 }
